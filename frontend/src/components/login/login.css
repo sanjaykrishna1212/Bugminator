@@ -1,14 +1,15 @@
 .container {
-    position: relative;
-    height: 100vh;
-    padding: 2rem 1.5rem;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+  position: relative;
+  height: 100vh;
+  padding: 2rem 1.5rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-
+.login-wrapper {
+  box-shadow: 0px 0px 10px 1px #19a6bd94;
+}
 .username input {
   width: 300px;
   height: 30px;
@@ -24,13 +25,12 @@
   border-radius: 5px;
   outline: none;
   border: 2px solid #0daadb;
-      padding: 1rem;
+  padding: 1rem;
 }
 
 .heading {
   color: #0daadb;
-      margin: auto 1.5rem;
-
+  margin: auto 1.5rem;
 }
 .submit-btn button {
   width: 300px;
@@ -44,13 +44,29 @@
   border: 1px solid #0daadb;
 }
 
+.username {
+  margin: 1.5rem;
+}
+.password {
+  margin: 1.5rem;
+}
+.submit-btn {
+  margin: 1.5rem;
+}
+.register {
+  margin: 1.5rem;
+}
+.register a {
+  color: var(--primary-color);
+}
 
-.username{
-    margin:1.5rem;
+.login-form {
+  border: 1px solid var(--primary-color);
+  padding: 20px 10px;
 }
-.password{
-    margin: 1.5rem;
-}
-.submit-btn{
-    margin: 1.5rem;
+
+.app-title p {
+  color: #ffffffcf;
+  text-shadow: 2px 3px 1px var(--primary-color);
+  font-size: 50px;
 }
